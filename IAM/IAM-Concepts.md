@@ -99,6 +99,8 @@
   * Roles for CloudFormation
 * In short, these IAM roles are just like a user, but they are intended to be used not by a physical user but instead used by the AWS service.
   For example: An EC2 instance wants to perform some actions on AWS we need to assign an IAM role to that EC2 instance.
+* While creating Role in following dialog, only important type os AWS Service, others are out of scope for Exam.
+![](.IAM-Concepts_images/IAM-Role-For-Service.png)
 
 ## IAM Security Tools
 
