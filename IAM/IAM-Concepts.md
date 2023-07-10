@@ -32,8 +32,6 @@
 
 ![IAM Policy Structure](.IAM_images/IAM-Policy-Structure.png)
 
-
-
 ## IAM – Password Policy
 
 * Strong passwords = higher security for your account
@@ -91,7 +89,7 @@
   * IoT Device SDKs (Embedded C, Arduino, …)
 * Example: AWS CLI is built on AWS SDK for Python
 
-## AM Roles for Services
+## IAM Roles for Services
 
 * Some AWS service will need to perform actions on your behalf
 * To do so, we will assign permissions to AWS services with IAM Roles
@@ -99,6 +97,8 @@
   * EC2 Instance Roles
   * Lambda Function Roles
   * Roles for CloudFormation
+* In short, these IAM roles are just like a user, but they are intended to be used not by a physical user but instead used by the AWS service.
+  For example: An EC2 instance wants to perform some actions on AWS we need to assign an IAM role to that EC2 instance.
 
 ## IAM Security Tools
 
@@ -131,4 +131,3 @@
 * **AWS SDK**:  manage your AWS services using a programming language
 * **Access Keys**: access AWS using the CLI or SDK
 * **Audit**:  IAM Credential Reports & IAM Access Advisor
-
